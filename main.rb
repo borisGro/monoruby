@@ -1,9 +1,10 @@
 class Player
-    attr_reader :hat, :iron, :battleship
+    attr_reader :token
   
     def initialize(token)
       @token = token
     end
   end
   
-  hat = Player.new(hat)
+boris = Player.new("hat")
+puts boris.token
