@@ -1,10 +1,4 @@
-class Player
-    attr_reader :token
-  
-    def initialize(token)
-      @token = token
-    end
-  end
-  
+require './player.rb'
+
 boris = Player.new("hat")
-puts boris.token
+puts boris.dice
